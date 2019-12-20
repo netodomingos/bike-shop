@@ -1,0 +1,234 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-top-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5px;
+    color: black;
+}
+
+.slogan p{
+    display: flex;
+    
+}
+header{
+    margin: 0;
+}
+hr{
+    margin: 0;
+    color: black;
+}
+
+.social-media li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.whatsApp-api a{
+    margin-right: 15px;
+    text-decoration: none;
+    margin-top: 0;
+    color: black;
+}
+
+.whatsApp-api a i {
+    color: green;
+}
+
+.header-top-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.brand {
+    margin-left: 50px;
+}
+
+.brand img {
+    width: 130px;
+    height: 100px;
+}
+
+.header-top-2 .input-search input{
+    background: none;
+    outline: none;
+    width: 400px;
+    border-radius: 5px;
+    background: #fff;
+    height: 37px;
+}
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.li-login ul li {
+    list-style: none;
+}
+
+.li-login ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.cart{
+    margin-right: 20px;
+}
+.cart ul li{
+    list-style: none;
+}
+
+.cart ul li a{
+    text-decoration: none;
+    color: #000;
+    width: 60px;
+}
+.nav-bar{
+    margin-top: 20px;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: green;
+}
+
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      color: green;
+    }
+
+.carousel-item img {
+    height: 400px;
+}
+
+/* .montagem-extern{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 80%;
+} */
+
+.montagem-extern h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.montagem ul li {
+    opacity: 100%;
+}
+
+.montagem ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.montagem ul li h5{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.montagem ul li a:hover{
+
+}
+
+:root{
+    --opacity: 80%;
+}
+
+
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+h3{
+    text-align: center;
+}
