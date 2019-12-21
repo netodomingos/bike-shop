@@ -9,41 +9,34 @@ a{
     text-decoration: none;
 }
 
+
 .header-top-1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 5px;
     color: black;
+    background-color: #1db954;
 }
 
 .slogan p{
     display: flex;
+    color: #fff;
     
-}
-header{
-    margin: 0;
-}
-hr{
-    margin: 0;
-    color: black;
 }
 
 .social-media li{
     display: inline-block;
     margin-right: 15px;
+    color: #fff;
 }
 
 .whatsApp-api a{
     margin-right: 15px;
     text-decoration: none;
     margin-top: 0;
-    color: black;
+    color: #fff;
 }
 
-.whatsApp-api a i {
-    color: green;
-}
 
 .header-top-2{
     display: flex;
@@ -58,7 +51,7 @@ hr{
 }
 
 .brand img {
-    width: 130px;
+    width: 210px;
     height: 100px;
 }
 
@@ -97,7 +90,9 @@ hr{
     width: 60px;
 }
 .nav-bar{
-    margin-top: 20px;
+    background: #1db954;
+    padding-top: 10px;
+    padding-bottom: 2px;
 }
 .nav-bar ul{
     list-style: none;
@@ -108,51 +103,70 @@ hr{
 
 .nav-bar ul li a{
     text-decoration: none;
-    color: green;
+    color: #fff;
+}
+
+.dropdown ul li .dropdown-content a{
+    color: #000;
+}
+
+.nav-bar ul li a:hover{
+    color: #000
+}
+
+.dropdown-content a{
+    color: #000;
+}
+
+.link-text{
+    color: #000;
 }
 
 
 .dropbtn {
     color: white;
-    padding: 16px;
+    margin-top: 10px;
     font-size: 16px;
     border: none;
-  }
-  
+}
+
+.dropd
+
   /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
   /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
       background-color: #ddd;
-  }
+}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
+  
+.dropdown:hover .dropbtn {
       color: green;
     }
 
@@ -160,23 +174,12 @@ hr{
     height: 400px;
 }
 
-/* .montagem-extern{
-    background-image: url(/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    opacity: 80%;
-} */
 
 .montagem-extern h3{
     text-align: center;
     margin-bottom: 40px;
 }
 
-.montagem ul li {
-    opacity: 100%;
-}
 
 .montagem ul {
     list-style: none;
@@ -188,16 +191,13 @@ hr{
 .montagem ul li h5{
     text-align: center;
     margin-top: 10px;
+    color: #000;
 }
 
-.montagem ul li a:hover{
-
+.montagem ul li :hover{
+    transform: translateY(-10%);
+    transition: .3s;
 }
-
-:root{
-    --opacity: 80%;
-}
-
 
 .row-equal > div[class*='col-'] {
     display: flex;
@@ -232,3 +232,31 @@ hr{
 h3{
     text-align: center;
 }
+
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    box-shadow: #000;
+}
+
+.card header{
+    background: #1db954;
+    border-radius: 5px 5px 0 0;
+}
+
+.card header h5{
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.card .body-card img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card .body-card p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
